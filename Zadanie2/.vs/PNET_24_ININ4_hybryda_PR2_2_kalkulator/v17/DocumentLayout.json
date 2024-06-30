@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\PROJEKTY\\studia\\Programowanie .NET\\Zadanie2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E78A65B8-CC12-415A-B88D-42CB9B2D2571}|PNET_24_ININ4_hybryda_PR2_2_kalkulator.csproj|h:\\projekty\\studia\\programowanie .net\\zadanie2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E78A65B8-CC12-415A-B88D-42CB9B2D2571}|PNET_24_ININ4_hybryda_PR2_2_kalkulator.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E78A65B8-CC12-415A-B88D-42CB9B2D2571}|PNET_24_ININ4_hybryda_PR2_2_kalkulator.csproj|h:\\projekty\\studia\\programowanie .net\\zadanie2\\logikakalkulatora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E78A65B8-CC12-415A-B88D-42CB9B2D2571}|PNET_24_ININ4_hybryda_PR2_2_kalkulator.csproj|solutionrelative:logikakalkulatora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E78A65B8-CC12-415A-B88D-42CB9B2D2571}|PNET_24_ININ4_hybryda_PR2_2_kalkulator.csproj|h:\\projekty\\studia\\programowanie .net\\zadanie2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E78A65B8-CC12-415A-B88D-42CB9B2D2571}|PNET_24_ININ4_hybryda_PR2_2_kalkulator.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 164,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "H:\\PROJEKTY\\studia\\Programowanie .NET\\Zadanie2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "H:\\PROJEKTY\\studia\\Programowanie .NET\\Zadanie2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:50:19.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "H:\\PROJEKTY\\studia\\Programowanie .NET\\Zadanie2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "H:\\PROJEKTY\\studia\\Programowanie .NET\\Zadanie2\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-19T16:50:09.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogikaKalkulatora.cs",
+              "DocumentMoniker": "H:\\PROJEKTY\\studia\\Programowanie .NET\\Zadanie2\\LogikaKalkulatora.cs",
+              "RelativeDocumentMoniker": "LogikaKalkulatora.cs",
+              "ToolTip": "H:\\PROJEKTY\\studia\\Programowanie .NET\\Zadanie2\\LogikaKalkulatora.cs",
+              "RelativeToolTip": "LogikaKalkulatora.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAawG8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:50:05.117Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

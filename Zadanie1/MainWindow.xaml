@@ -1,0 +1,69 @@
+﻿<Window x:Class="Zadanie1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zadanie1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <!-- Zasoby kolorów -->
+        <SolidColorBrush x:Key="KolorTekstu" Color="#000000"/>
+        <SolidColorBrush x:Key="SpecjalnyKolorTekstu" Color="#900"/>
+        <SolidColorBrush x:Key="TloPrzycisku" Color="#EEEEEE"/>
+        <SolidColorBrush x:Key="KolorStatycznyPrzycisku" Color="#DDF"/>
+        <SolidColorBrush x:Key="KolorNajechaniaNaPrzycisk" Color="#99D"/>
+        <SolidColorBrush x:Key="KolorKliknieciaPrzycisku" Color="#99F"/>
+
+        <!-- Style  -->
+        <Style x:Key="BazowyStyl" TargetType="Label">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="Foreground" Value="{StaticResource KolorTekstu}"/>
+        </Style>
+        <Style x:Key="SpecjalnyStyl" TargetType="Label" BasedOn="{StaticResource BazowyStyl}">
+            <Setter Property="Foreground" Value="{StaticResource SpecjalnyKolorTekstu}"/>
+        </Style>
+
+        <!-- Style dla przycisków -->
+        <Style x:Key="StylPrzycisku" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource TloPrzycisku}"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style x:Key="SpecjalnyStylPrzycisku" TargetType="Button" BasedOn="{StaticResource StylPrzycisku}">
+            <Setter Property="Background" Value="{StaticResource KolorStatycznyPrzycisku}"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource KolorNajechaniaNaPrzycisk}"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="{StaticResource KolorKliknieciaPrzycisku}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <WrapPanel Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Button Content="Przycisk 1" Style="{StaticResource StylPrzycisku}" Margin="5"/>
+            <Button Content="Przycisk 2" Style="{StaticResource StylPrzycisku}" Margin="5"/>
+            <Button Content="Przycisk 3" Style="{StaticResource SpecjalnyStylPrzycisku}" Margin="5"/>
+        </WrapPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" Margin="10">
+            <Label Content="Grupa 1" Style="{StaticResource BazowyStyl}"/>
+            <Label Content="Grupa 2" Style="{StaticResource SpecjalnyStyl}"/>
+        </StackPanel>
+    </Grid>
+</Window>
